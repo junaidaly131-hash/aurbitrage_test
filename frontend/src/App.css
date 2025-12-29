@@ -1,0 +1,11 @@
+#root {
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+  /* text-align: center; */
+}
+
+body,
+span,
+input::placeholder {
+  font-family: "Manrope", sans-serif !important;
+}

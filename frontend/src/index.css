@@ -1,0 +1,1108 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Urbanist:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap&family=Poppins:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+  font-family: "Manrope", "Outfit" !important;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* color-scheme: light dark; */
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #101010;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: "Manrope", sans-serif !important;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* general style */
+h1 {
+  font-size: 65px;
+  line-height: 60px;
+  color: #dba42d;
+  font-weight: 700 !important;
+}
+h2 {
+  font-size: 55px;
+  color: #dba42d;
+}
+h3 {
+  font-size: 45px;
+  color: #dba42d;
+  line-height: 50px;
+}
+h4 {
+  font-size: 30px;
+}
+h5 {
+  font-size: 25px;
+}
+h6 {
+  font-size: 20px;
+}
+.MuiPopover-paper {
+  background-color: #000 !important;
+  margin-top: 10px !important;
+  box-shadow: 1px 1px 10px #242424 !important;
+}
+.drop-down-gray {
+  background-color: #292929 !important;
+}
+li {
+  list-style: none;
+  margin: 4px 0;
+}
+.sidebar-open {
+  height: auto;
+}
+.sidebar-content {
+  height: 0;
+  overflow: hidden;
+}
+.log-pad {
+  padding: 9% 0;
+}
+
+.login-image {
+  width: 50%;
+}
+.hero-img {
+  width: 100%;
+}
+.trial-img {
+  width: 95%;
+}
+
+.menu-appbar {
+  background-color: #dba42d !important;
+  color: #000;
+}
+
+.error-hero h1 {
+  margin: 10px auto;
+  line-height: 69px;
+  width: 70%;
+  text-align: center;
+}
+
+button {
+  font-family: "Manrope", sans-serif !important;
+}
+.posting-Ad {
+  color: #fff;
+}
+.posting-Ad h6 {
+  margin: 10px 0;
+}
+.posting-Ad p {
+  margin: 10px 0;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+*::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+
+/* Scrollbar Handle (thumb) */
+*::-webkit-scrollbar-thumb {
+  background-color: #dba42d; /* color of the scrollbar thumb */
+  border-radius: 3px; /* roundness of the scrollbar thumb */
+}
+
+/* Optional: Scrollbar Track */
+*::-webkit-scrollbar-track {
+  background-color: #292929; /* color of the scrollbar track */
+}
+
+body {
+  /* margin: 0; */
+  /* display: flex;
+  place-items: flex-start; */
+  /* min-width: 320px; */
+  min-height: 100vh;
+  background-color: #101010 !important;
+  font-family: "Manrope", sans-serif !important;
+}
+
+.sidebar-scroller::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px #292929;
+  border-radius: 15px;
+  margin-right: 20px;
+}
+.sidebar-scroller::-webkit-scrollbar-thumb {
+  background-color: #dba42d;
+  border-radius: 15px;
+}
+
+.pricing-table-scroller::-webkit-scrollbar {
+  width: 8px !important;
+  height: 8px !important;
+}
+.pricing-table-scroller::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px #292929;
+  border-radius: 3px;
+  margin-left: 20px !important;
+  width: 3px !important;
+}
+.pricing-table-scroller::-webkit-scrollbar-thumb {
+  background-color: #dba42d;
+  border-radius: 3px;
+  width: 3px !important;
+}
+
+.custom-data-table .MuiDataGrid-topContainer {
+  color: #fff !important;
+}
+
+.custom-data-table .MuiDataGrid-columnHeaderTitleContainer {
+  background-color: #191919 !important;
+  padding: 0 !important;
+}
+.custom-data-table .MuiDataGrid-columnHeader {
+  padding: 0 !important;
+}
+.MuiDataGrid-filler {
+  background-color: #191919 !important;
+}
+
+.custom-data-table .MuiSvgIcon-root {
+  display: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-radius: 10px;
+  width: 100%;
+}
+th {
+  padding: 1.5rem;
+  text-align: center !important;
+}
+tr {
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+td {
+  padding: 1rem 1.5rem;
+  text-align: center;
+}
+th:first-of-type {
+  border-top-left-radius: 10px;
+}
+
+th:last-of-type {
+  border-top-right-radius: 10px;
+}
+
+.cusm-icon-style {
+  margin-right: 20px !important;
+}
+.search-btn input::placeholder {
+  color: #fff;
+  font-weight: 500;
+}
+
+.search-btn .MuiOutlinedInput-notchedOutline {
+  border: none !important;
+  outline: none !important;
+}
+
+.search-btn input::placeholder {
+  color: #8a8a8a;
+  font-weight: 600;
+}
+
+#editor::-webkit-scrollbar {
+  display: none;
+}
+#editor .ql-editor.ql-blank::before {
+  color: #fff;
+}
+
+@media screen and (max-width: 1930px) {
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer {
+    padding: 60px 330px !important;
+  }
+}
+@media screen and (max-width: 1853px) {
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer {
+    padding: 60px 280px !important;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer {
+    padding: 60px 250px !important;
+  }
+}
+
+@media screen and (max-width: 1700px) {
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer {
+    padding: 60px 210px !important;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer {
+    padding: 60px 170px !important;
+  }
+}
+
+@media screen and (max-width: 1550px) {
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer {
+    padding: 60px 130px !important;
+  }
+}
+
+@media screen and (max-width: 1499px) {
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer p {
+    font-size: 28px;
+  }
+  .about-img,
+  .feature-img {
+    width: 80%;
+  }
+  .log-pad {
+    padding: 5% 0;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .error-hero h1 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .resp-class {
+    font-size: 10px !important;
+    padding: 7px 15px !important;
+  }
+  .resp-menu-font {
+    font-size: 12px !important;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .about-sec h6 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .order-class {
+    order: 1 !important;
+  }
+  .resp-class {
+    margin: 0 10px !important;
+  }
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer h1 {
+    font-size: 55px;
+    line-height: 60px;
+    color: #dba42d;
+    font-weight: 500 !important;
+  }
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer h2 {
+    font-size: 45px;
+    color: #dba42d;
+  }
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer h3 {
+    font-size: 35px;
+    color: #dba42d;
+    line-height: 50px;
+  }
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer h4 {
+    font-size: 20px;
+  }
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer h5 {
+    font-size: 18px;
+  }
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer h6 {
+    font-size: 16px;
+  }
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer p {
+    font-size: 18px;
+  }
+  .about-img,
+  .feature-img,
+  .trial-img {
+    width: 90%;
+  }
+  .login-image {
+    width: 80%;
+  }
+  .log-pad {
+    padding: 6% 0;
+  }
+}
+@media screen and (max-width: 900px) {
+  .hero-sec {
+    flex-direction: column-reverse !important;
+  }
+  .about-img,
+  .feature-img,
+  .trial-img,
+  .hero-img {
+    width: 100%;
+  }
+  .hero-box,
+  .about-box,
+  .feature-box,
+  .trial-box {
+    text-align: center;
+  }
+  .about-aurbitrage {
+    flex-direction: column-reverse !important;
+  }
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer h3,
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer h2,
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer h6,
+  .ul-center,
+  .h3 {
+    text-align: center;
+  }
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer p {
+    text-align: center;
+  }
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer .btn-center,
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer h3,
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer p {
+    margin: 10px 0 auto !important;
+  }
+  .log-pad {
+    padding: 12% 0;
+  }
+  .login-form {
+    width: 60%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    overflow: auto;
+  }
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer {
+    padding: 60px 80px !important;
+  }
+  .footer {
+    padding: 60px 40px !important;
+  }
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer h1 {
+    font-size: 50px;
+    line-height: 60px;
+    color: #dba42d;
+    font-weight: 500 !important;
+    text-align: center;
+  }
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer h2 {
+    font-size: 40px;
+    color: #dba42d;
+    text-align: center;
+  }
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer h3 {
+    font-size: 30px;
+    color: #dba42d;
+    line-height: 50px;
+    text-align: center;
+  }
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer h4 {
+    font-size: 18px;
+    text-align: center;
+  }
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer h5 {
+    font-size: 17px;
+    text-align: center;
+  }
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer h6 {
+    font-size: 16px;
+    text-align: center;
+  }
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer p {
+    font-size: 16px;
+    text-align: center;
+  }
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer img {
+    width: 100%;
+  }
+  .btn-center {
+    width: 62%;
+  }
+  .login-form {
+    width: 80%;
+    margin: auto;
+  }
+  .log-pad {
+    padding: 14% 0;
+  }
+  .about-box {
+    text-align: start;
+  }
+  .feat-1 {
+    flex-direction: column-reverse !important;
+  }
+  .feature-box {
+    text-align: start;
+    margin: 20px 0;
+  }
+  .feat-3 {
+    flex-direction: column-reverse !important;
+  }
+  .trial-box {
+    text-align: start !important;
+    margin: 20px 0 !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer {
+    padding: 60px 40px !important;
+  }
+  .log-pad {
+    padding: 19% 0;
+  }
+  .contact-order {
+    order: 1;
+    text-align: start;
+  }
+  .foot-logo-order {
+    order: 2;
+    border: none !important;
+  }
+  .aurbitrage-order {
+    order: 3;
+  }
+  .legal-order {
+    order: 4;
+  }
+  .bottom-menu-order {
+    order: 5;
+  }
+
+  .contact-order h3 {
+    text-align: start;
+  }
+  .aurbitrage-order h6 {
+    display: none;
+  }
+  .legal-order h6 {
+    text-align: start !important;
+    margin: 13px 0;
+  }
+  .aurbitrage-order ul,
+  .legal-order ul {
+    align-items: start !important;
+  }
+  .bottom-menu-order ul {
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 1px solid #8e8e8e;
+  }
+  .bottom-menu-order p {
+    width: 100%;
+    justify-content: center;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer button {
+    width: 90% !important;
+  }
+
+  .order-class img {
+    width: 100px !important;
+  }
+  .resp-class {
+    font-size: 8px !important;
+    padding: 6px 8px !important;
+  }
+
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer h1 {
+    font-size: 45px;
+    line-height: 60px;
+    color: #dba42d;
+    font-weight: 500 !important;
+    text-align: center;
+  }
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer h2 {
+    font-size: 35px;
+    color: #dba42d;
+    text-align: center;
+  }
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer h3 {
+    font-size: 28px;
+    color: #dba42d;
+    line-height: 40px;
+    text-align: center;
+  }
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer h4 {
+    font-size: 18px;
+    text-align: center;
+  }
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer h5 {
+    font-size: 17px;
+    text-align: center;
+    line-height: 28px !important;
+  }
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer h6 {
+    font-size: 16px;
+    text-align: center;
+  }
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer p {
+    font-size: 14px;
+    text-align: center;
+  }
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer img {
+    width: 100%;
+  }
+  .nav-btn {
+    font-size: 11px !important;
+  }
+
+  .login-form-content h3 {
+    line-height: 20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .nav-btn {
+    font-size: 9px !important;
+    font-weight: 800 !important;
+  }
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer h3 {
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px !important;
+  }
+  .login-form-content p {
+    font-size: 14px !important;
+  }
+  .log-pad {
+    padding: 24% 0;
+  }
+  .login-form {
+    width: 100%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 430px) {
+  .order-class img {
+    width: 80px !important;
+  }
+  .resp-class {
+    font-size: 7px !important;
+    padding: 6px 8px !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  .order-class img {
+    width: 70px !important;
+  }
+  .resp-class {
+    font-size: 6px !important;
+    padding: 6px 7px !important;
+  }
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer h1 {
+    font-size: 40px;
+    line-height: 60px;
+    color: #dba42d;
+    font-weight: 500 !important;
+    text-align: center;
+  }
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer h2 {
+    font-size: 30px;
+    color: #dba42d;
+    text-align: center;
+  }
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer h3 {
+    font-size: 22px;
+    color: #dba42d;
+    line-height: 50px;
+    text-align: center;
+  }
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer h4 {
+    font-size: 17px;
+    text-align: center;
+  }
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer h5 {
+    font-size: 16px;
+    text-align: center;
+  }
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer h6 {
+    font-size: 15px;
+    text-align: center;
+  }
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer p {
+    font-size: 13px;
+    text-align: center;
+  }
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer img {
+    width: 100%;
+  }
+  .hero-sec,
+  .our-partners,
+  .about-aurbitrage,
+  .feat,
+  .feat-1,
+  .feat-2,
+  .feat-3,
+  .feat-4,
+  .trail-sec,
+  .footer h3 {
+    font-size: 17px;
+    text-align: center;
+  }
+  .login-form-content p {
+    font-size: 13px !important;
+    margin-bottom: 30px !important;
+  }
+  .log-pad {
+    padding: 24% 0;
+  }
+}

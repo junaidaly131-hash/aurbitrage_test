@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Template Isolation Test</title>
+    <style>
+      /* This should NOT affect the email template preview */
+      body {
+        background-color: #ff0000 !important;
+        color: #00ff00 !important;
+        font-family: "Comic Sans MS", cursive !important;
+      }
+
+      .test-class {
+        background-color: #0000ff !important;
+        color: #ffff00 !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="test-class">
+      <h1>This is a test page to verify iframe isolation</h1>
+      <p>
+        If the email template preview is properly isolated, this red background
+        and green text should NOT affect the email template content.
+      </p>
+      <p>
+        The email template should render with its own styles, completely
+        independent of this page's styling.
+      </p>
+    </div>
+  </body>
+</html>

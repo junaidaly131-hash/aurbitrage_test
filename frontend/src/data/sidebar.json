@@ -1,0 +1,276 @@
+[
+  {
+    "title": "Gold Modern Coins",
+    "color": "#DBA42D",
+    "childrens": [
+      {
+        "title": "Austrian Mint",
+        "path": "/check",
+        "color": "#DBA42D"
+      },
+      {
+        "title": "Austrian Mint",
+        "path": "/check",
+        "color": "#DBA42D"
+      },
+      {
+        "title": "Austrian Mint",
+        "path": "/check",
+        "color": "#DBA42D"
+      }
+    ]
+  },
+  {
+    "title": "Gold Pre-33 Coins",
+    "color": "#DBA42D",
+    "childrens": [
+      {
+        "title": "Austrian Mint",
+        "path": "/check",
+        "color": "#DBA42D"
+      },
+      {
+        "title": "Austrian Mint",
+        "path": "/check",
+        "color": "#DBA42D"
+      },
+      {
+        "title": "Austrian Mint",
+        "path": "/check",
+        "color": "#DBA42D"
+      }
+    ]
+  },
+  {
+    "title": "Gold Bars",
+    "color": "#DBA42D",
+    "childrens": [
+      {
+        "title": "Austrian Mint",
+        "path": "/check",
+        "color": "#DBA42D"
+      },
+      {
+        "title": "Austrian Mint",
+        "path": "/check",
+        "color": "#DBA42D"
+      },
+      {
+        "title": "Austrian Mint",
+        "path": "/check",
+        "color": "#DBA42D"
+      }
+    ]
+  },
+  {
+    "title": "Other Gold",
+    "color": "#DBA42D",
+    "childrens": [
+      {
+        "title": "Austrian Mint",
+        "path": "/check",
+        "color": "#DBA42D"
+      },
+      {
+        "title": "Austrian Mint",
+        "path": "/check",
+        "color": "#DBA42D"
+      },
+      {
+        "title": "Austrian Mint",
+        "path": "/check",
+        "color": "#DBA42D"
+      }
+    ]
+  },
+
+  {
+    "title": "Silver Modern Coins",
+    "color": "#C0C0C0",
+    "childrens": [
+      {
+        "title": "Austrian Mint",
+        "path": "/check",
+        "color": "#C0C0C0"
+      },
+      {
+        "title": "Austrian Mint",
+        "path": "/check",
+        "color": "#C0C0C0"
+      },
+      {
+        "title": "Austrian Mint",
+        "path": "/check",
+        "color": "#C0C0C0"
+      }
+    ]
+  },
+  {
+    "title": "Silver Pre-64 Coins",
+    "color": "#C0C0C0",
+    "childrens": [
+      {
+        "title": "Austrian Mint",
+        "path": "/check",
+        "color": "#C0C0C0"
+      },
+      {
+        "title": "Austrian Mint",
+        "path": "/check",
+        "color": "#C0C0C0"
+      },
+      {
+        "title": "Austrian Mint",
+        "path": "/check",
+        "color": "#C0C0C0"
+      }
+    ]
+  },
+  {
+    "title": "Silver Rounds",
+    "color": "#C0C0C0",
+    "childrens": [
+      {
+        "title": "Austrian Mint",
+        "path": "/check",
+        "color": "#C0C0C0"
+      },
+      {
+        "title": "Austrian Mint",
+        "path": "/check",
+        "color": "#C0C0C0"
+      },
+      {
+        "title": "Austrian Mint",
+        "path": "/check",
+        "color": "#C0C0C0"
+      }
+    ]
+  },
+  {
+    "title": "Silver Bars",
+    "color": "#C0C0C0",
+    "childrens": [
+      {
+        "title": "Austrian Mint",
+        "path": "/check",
+        "color": "#C0C0C0"
+      },
+      {
+        "title": "Austrian Mint",
+        "path": "/check",
+        "color": "#C0C0C0"
+      },
+      {
+        "title": "Austrian Mint",
+        "path": "/check",
+        "color": "#C0C0C0"
+      }
+    ]
+  },
+  {
+    "title": "Other Silver",
+    "color": "#C0C0C0",
+    "childrens": [
+      {
+        "title": "Austrian Mint",
+        "path": "/check",
+        "color": "#C0C0C0"
+      },
+      {
+        "title": "Austrian Mint",
+        "path": "/check",
+        "color": "#C0C0C0"
+      },
+      {
+        "title": "Austrian Mint",
+        "path": "/check",
+        "color": "#C0C0C0"
+      }
+    ]
+  },
+  {
+    "title": "Platinum Coins",
+    "color": "#328D62",
+    "childrens": [
+      {
+        "title": "Austrian Mint",
+        "path": "/check",
+        "color": "#328D62"
+      },
+      {
+        "title": "Austrian Mint",
+        "path": "/check",
+        "color": "#328D62"
+      },
+      {
+        "title": "Austrian Mint",
+        "path": "/check",
+        "color": "#328D62"
+      }
+    ]
+  },
+  {
+    "title": "Platinum Bars",
+    "color": "#328D62",
+    "childrens": [
+      {
+        "title": "Austrian Mint",
+        "path": "/check",
+        "color": "#328D62"
+      },
+      {
+        "title": "Austrian Mint",
+        "path": "/check",
+        "color": "#328D62"
+      },
+      {
+        "title": "Austrian Mint",
+        "path": "/check",
+        "color": "#328D62"
+      }
+    ]
+  },
+  {
+    "title": "Palladium Coins",
+    "color": "#1C56A4",
+    "childrens": [
+      {
+        "title": "Austrian Mint",
+        "path": "/check",
+        "color": "#1C56A4"
+      },
+      {
+        "title": "Austrian Mint",
+        "path": "/check",
+        "color": "#1C56A4"
+      },
+      {
+        "title": "Austrian Mint",
+        "path": "/check",
+        "color": "#1C56A4"
+      }
+    ]
+  },
+  {
+    "title": "Palladium Bars",
+    "color": "#1C56A4",
+    "childrens": [
+      {
+        "title": "Austrian Mint",
+        "path": "/check",
+        "color": "#1C56A4"
+      },
+      {
+        "title": "Austrian Mint",
+        "path": "/check",
+        "color": "#1C56A4"
+      },
+      {
+        "title": "Austrian Mint",
+        "path": "/check",
+        "color": "#1C56A4"
+      }
+    ]
+  }
+]
